@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+header{
+    background-color: cornflowerblue;
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+} 
+img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    
+}
+header > p{
+    text-align: center;
+}  
+section{
+    
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 2em;    
+}
+body{
+    background-image: url(../imagens/fundo.avif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+footer{
+    background-color: cornflowerblue;
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
